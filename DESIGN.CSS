@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+color: rgb(197, 221, 241);
+text-align: center;
+text-decoration: underline;
+font-size: 50px;
+margin:0;
+padding:0;
+
+}
+
+    body{
+        margin:0;
+        padding:0;
+        height:100%;
+        background-image:url(https://www.slashgear.com/img/gallery/how-old-is-our-solar-system/l-intro-1646595387.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+     .div,.btn1 {
+        z-index: 1;
+      }
+.btn,.div1 {
+        position: relative;
+}
+.btn,.btn1{
+border-color: none;
+height:40px;
+width:285px;
+}
+.btn,.div,.div1,.btn1{
+ cursor: pointer;
+ display: inline-block;
+ font-size: 16px;
+ padding: 16px;
+    opacity:0.7;
+color:rgb(12, 12, 12);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+background: linear-gradient(180deg, rgba(60, 66, 72, 0.979) 24%, rgba(160, 167, 238, 0.952) 50%, rgb(248, 241, 241) 100%);
+margin-left:0;
+text-align: center;
+padding-top: 3.5px;
+padding-left: 7px;
+      }
+.div,.div1{
+border-right: 2px;
+border-right-color:aliceblue ;
+border-bottom-width:4px ;
+border-bottom-style: dashed;
+border-bottom-color: black;
+height:25px;
+width:275px;
+border-left-width: 2px;
+border-left-style: solid;
+border-left-color: rgba(0, 0, 0, 0.349);
+}
+      .Vr{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        z-index: 1;
+}
+      .Vr a {
+        color: rgb(6, 9, 151);
+        padding: 12px 16px ;
+        text-decoration: none;
+       display: block;
+       height: 6px;
+width:160px;
+border-width: 2px;
+border-style: solid;
+border-color: rgba(99, 137, 234, 0.968);
+background: linear-gradient(168deg, rgba(195, 216, 249, 0.966) 24%, rgba(245, 245, 249, 0.164) 50%, rgb(175, 209, 247) 100%);
+opacity:2;
+
+      }
+      .div:hover .Vr {
+        display: block;
+        z-index: 1;
+      }
+h3{
+font-weight: bolder;
+font-size: 27px;
+font-family:'Courier New', Courier, monospace;
+color:indigo;
+}
+.info{
+    height:180px;
+width:400px;
+border-bottom-width: 3px;
+border-bottom-style: solid;
+border-bottom-color: rgba(168, 236, 229, 0.881);
+background: linear-gradient(160deg, aqua 8%, rgba(245, 245, 249, 0.164) 50%, rgb(244, 250, 250) 100%);
+opacity:0.45;
+display: inline-block;
+margin: 0;
+text-align: center;
+margin-top: 35px;
+}
+h2{
+    font-weight: bolder;
+font-size: 60px;
+color: aliceblue;
+text-align: center;
+font-family:"Brush Script MT", cursive;
+}
+p{
+    font-weight:bold;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(241, 240, 248);   
+    line-height: 20px;
+}
+h4,h5,h6{
+    font-size:xx-large;
+    font-weight: bold;
+    color:bisque;
+}
+
+.nav1,.nav2{
+    display: inline-block;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top:10px;
+background-position: 50%;
+
+}
+.nav1{
+background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/msnbc/Components/Photo_StoryLevel/080114/080114-mercury-hmed-10a.jpg);
+width:590px;
+height:490px;
+position: relative;
+    top: -40px;
+}
+.nav2{
+    background-image:url(https://cdn.britannica.com/66/155966-131-17B5B518/Jupiter.jpg);
+    width:620px;
+    height:490px;
+}
+li{
+    color:white;
+    font-size:28px;
+    text-align: center;
+    margin:15px;
+    background: linear-gradient(168deg, rgba(195, 216, 249, 0.639) 24%, rgba(245, 245, 249, 0.164) 50%, rgb(175, 209, 247) 100%); ;
+}
